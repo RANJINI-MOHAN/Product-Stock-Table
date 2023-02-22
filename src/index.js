@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import ProductApp from './ProductApp';
 import reportWebVitals from './reportWebVitals';
+import StockApp from './StockApp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <ProductApp />
+    <StockApp />
   </React.StrictMode>
 );
 
