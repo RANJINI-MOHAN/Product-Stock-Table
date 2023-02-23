@@ -4,12 +4,14 @@ import './index.css';
 import ProductApp from './ProductApp';
 import reportWebVitals from './reportWebVitals';
 import StockApp from './StockApp';
+import Profile from './Gallery';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <ProductApp />
     <StockApp />
+    <Profile/>
   </React.StrictMode>
 );
 
